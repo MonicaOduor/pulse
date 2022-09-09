@@ -38,11 +38,11 @@ function CollapsibleExample() {
             <Link to="/blog" className="navlink mr-lg-4">
               <strong>Blog</strong>
             </Link>
-            <Link to="/signup" className="navlink">
+            <a href='' className="navlink">
               <button className="btn btn-outline-success rounded-0 mr-lg-4 signup_btn">
                 Sign Up
               </button>
-            </Link>
+            </a>
           </Nav>
         </Navbar.Collapse>
       </Container>
